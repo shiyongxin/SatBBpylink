@@ -130,7 +130,7 @@ if db_field:
         pickle.dump(
             [site_lat, site_long, sat_long, freq, max_eirp, sat_height, max_bw, bw_util,
                 modcod, pol, roll_off, ant_size, ant_eff, lnb_gain, lnb_temp, aditional_losses,
-                cable_loss, max_depoint, 1, 0], f)
+                cable_loss, max_depoint, 1, 0, language], f)
         f.close()
 
     sp_link_performance()
